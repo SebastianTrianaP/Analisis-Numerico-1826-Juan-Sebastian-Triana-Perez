@@ -1,0 +1,24 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+double encontrar(double semilla, double x);
+int main()
+{
+    double exacto = sqrt(7);
+    double aproximado =0.01;
+    double error;
+    cout<<"La semilla es: "<<aproximado<<endl;
+    do{
+        aproximado =(1.0/2.0)*(aproximado+(7.0/aproximado));
+        cout<<aproximado<<endl;
+        error = fabs((exacto-aproximado)/(exacto))*100.0;
+        
+    }while (error>0.01);
+    
+    cout<<"El error es: "<<error<<endl;
+    
+    //tarea triseccion 10^-8
+    //con ejercicios de fisica
+}
