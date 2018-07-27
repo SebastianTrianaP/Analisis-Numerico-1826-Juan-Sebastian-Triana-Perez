@@ -1,6 +1,6 @@
 **Metodo de Trisección**
 
-![Grafica problema](https://www.desmos.com/calculator/o6edztblgt)
+![Grafica problema](https://ibb.co/mVXrOo)
 
 Dada la grafica podemos saber mas o menos por donde es que se encuentra la raiz, en el caso particular del problema es en el intervalo [10,20], el programa tabulara los valores para que el usuario seleccione un intervalo mas ajustado, despues mostrara los pasos de como se realizo la trisección y como se fue reduciendo el intervalo en el que se encuentra la raiz.
 A continuacion se presenta el codigo del programa:
