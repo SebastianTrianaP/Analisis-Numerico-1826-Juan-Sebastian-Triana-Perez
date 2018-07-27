@@ -1,5 +1,7 @@
 **Metodo de Cuadrisección**
 
+![Grafica problema](https://a34f2e3d-a-62cb3a1a-s-sites.googlegroups.com/site/g03metodosnumericos2012/unidad-ii/Nueva%20imagen%20%283%29.bmp?attachauth=ANoY7crcglfRfDUnk1Wx53YDIjSPzdU9Y6yDfqUXVgTYw4nqoZ9bsmZI58Qw8HVVtEPlFpZkMZz6rtTPSJftf3ii64aDnBIgJAdL1LlugoU_zGRUA97S9O55Na3Zy_JQZOOcQNoc1Xu0q3QbFKIbu4knTumZcdTC4jXJ9pPv2YbiBhbK73XHFOxJK3y8aDhTol5sydq34873Jd8Um2O1oswIgL56e-Ga0kufnc4dIQiyFQECsueqvDtTDcwGWMiUzFkYGIKjk79g&attredirects=0)
+
 Dada la grafica podemos saber mas o menos por donde es que se encuentra la raiz, en el caso particular del problema es en el intervalo [10,20], el programa tabulara los valores para que el usuario seleccione un intervalo mas ajustado, despues mostrara los pasos de como se realizo la cuadrisección y como se fue reduciendo el intervalo en el que se encuentra la raiz.
 A continuacion se presenta el codigo del programa:
 
