@@ -155,8 +155,6 @@ Respuesta metodo # 1
     y = 8.09322
 ```
 
-Respuestas a preguntas:
-
 Respuesta metodo #2
 
 ```r
@@ -169,6 +167,13 @@ Respuesta metodo #2
 ```
 
 Respuestas a preguntas:
+
+1) La etapa de verificación
+2) Cálculo básico y pensamiento algoritmico, ademas de conocimientos basicos en el area al que pertenece el modelo matematico.
+3) La eficiencia es el mayor problema, ademas el margen de error puede ser mayor
+4) El error de truncamiento puede llegar a ser mucho mas objetivo que el de redondeo
+5) La velocidad y la eficacia
+6) Para comprobar si el algoritmo es eficaz.
 
 3.
 Implemente en R el siguiente algoritmo que sirve para calcular la raíz cuadrada. Aplíquelo para evaluar la raíz cuadrada de 7, analice su precisión, convergencia y validez.
