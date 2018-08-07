@@ -231,9 +231,11 @@ Respuesta:
         Validez:
         7
 ```
-Grafica:
+Gráfica:
 
 ![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/graficap3.JPG)
+
+Gráfica de error por numero de iteraciones.
 
 6.
 Eficiencia de un algoritmo esta denotada por T(n)
@@ -276,9 +278,11 @@ Explicación:
     Por tanto, T(n) es O(log n)
 ```
 
-Grafica:
+Gráfica:
 
 ![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/Grafica1.JPG)
+
+Gráfica generada en el programa, función f(x)=log2(t)+1.
 
 7.
 Utilice el método de Newton para resolver el problema, muestre gráficamente cómo se comporta la convergencia a la solución.
