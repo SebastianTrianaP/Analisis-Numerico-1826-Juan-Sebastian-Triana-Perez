@@ -57,12 +57,12 @@ Determine la medida del lado del cuadrado que se debe recortar en cada esquina p
 
 Utilice dos métodos diferentes para resolver el problema, instruméntelo en el lenguaje adecuado.
 
-1 ¿Cual etapa del proceso ded resolución de un problema numérico requiere mas atención?
-2 ¿Qué conocimientos son necesarios para formular un modelo matemático?
-3 En el ejemplo de la caja ¿ Cual sería de la desventaja de intentar obtener experimentalmente la solución mediante prueba y error en lugar de analizar el modelo matematico?
-4 ¿Que es más critico: el error de truncamiento o el error de redondeo ?
-5 ¿Cuál es la ventaja de instrumentar computacionalmente un método numérico?
-6 ¿Por que es importante validar los resultados obtenidos?
+1) ¿Cual etapa del proceso ded resolución de un problema numérico requiere mas atención?
+2) ¿Qué conocimientos son necesarios para formular un modelo matemático?
+3) En el ejemplo de la caja ¿ Cual sería de la desventaja de intentar obtener experimentalmente la solución mediante prueba y error en lugar de analizar el modelo matematico?
+4) ¿Que es más critico: el error de truncamiento o el error de redondeo ?
+5) ¿Cuál es la ventaja de instrumentar computacionalmente un método numérico?
+6) ¿Por que es importante validar los resultados obtenidos?
 
 Codigo: 
 
@@ -174,6 +174,7 @@ Respuestas a preguntas:
 4) El error de truncamiento puede llegar a ser mucho mas objetivo que el de redondeo
 5) La velocidad y la eficacia
 6) Para comprobar si el algoritmo es eficaz.
+
 
 3.
 Implemente en R el siguiente algoritmo que sirve para calcular la raíz cuadrada. Aplíquelo para evaluar la raíz cuadrada de 7, analice su precisión, convergencia y validez.
