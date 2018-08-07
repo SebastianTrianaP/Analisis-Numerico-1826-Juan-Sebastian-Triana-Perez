@@ -270,6 +270,8 @@ Explicación:
 
 Grafica:
 
+![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/Grafica1.JPG)
+
 7.
 Utilice el método de Newton para resolver el problema, muestre gráficamente cómo se comporta la convergencia a la solución.
 Una particula se mueve en el espacio con el vector de posición R(t) = (2cos(t)), sen(t), 0). Se requiere conocer el tiempo en el que el objeto se encuentra más cerca del punto P(2,1,0). Utilice el método de Newton con cuatro decimales de precisión.
