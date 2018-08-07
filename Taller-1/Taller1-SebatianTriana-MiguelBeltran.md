@@ -189,7 +189,6 @@ Codigo:
       erroanter=abs(x-y);
       errornuevo=0;
       contador=0;
-      plot(erroanter,type="s", main="plot(x,type=\"s\")");
       while (abs(x-y) > e) {
         
         errornuevo = abs(x-y);
@@ -215,7 +214,7 @@ Codigo:
     validez
 ```
 
-Respuesta
+Respuesta:
 
 ```r
     "Convergencia:"
@@ -232,6 +231,9 @@ Respuesta
         Validez:
         7
 ```
+Grafica:
+
+![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/graficap3.JPG)
 
 6.
 Eficiencia de un algoritmo esta denotada por T(n)
