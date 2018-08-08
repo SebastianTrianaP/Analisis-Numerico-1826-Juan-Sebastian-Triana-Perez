@@ -341,9 +341,120 @@ Repuesta:
 
 15.
 Se propone resolver la ecuación ... con el método del punto fijo.
+
 a) Obtenga la ecuacón f(x)=0 resolviendo la integral
+
 b) Mediante un gráfico aproximado, o evaluando directamenta, localice la raíces reales.
+
 c) Proponga una ecuacion equivalente x= g(x) y determine el intervalo de convergencia para calcular una de las dos raices.
+
 d) Del intervalo anterior, elija un valor inicial y realice 5 iteraciones. En cada ineración verifique que se cumple la condición de convergencia del punto fijo y estime el error de truncamiento con el último resultado.
 
 Codigo:
+
+```r
+#Punto-a
+f <- function(x) return(5*x-(exp(1)^x)-1)
+
+
+#Punto-b
+
+plot(f,from=-3,to=3)
+abline(h=0,col="blue");
+#raices: 0.5448804 y 2.396139
+
+
+#Punto-c
+g <- function(x) return((1+(exp(1)^x))/5)
+#intervalo de [0,2] y [2,3]
+
+
+#Punto-d
+
+puntofijo <-function(g, x0){
+  maxIter=100
+  tol=1e-8
+  k = 1
+  repeat{
+    x1 = g(x0)
+    
+    dx = abs(x1-x0)
+    print(dx)
+    x0 = x1
+    cat("x_", k, "= ", x1, "\n")
+    k = k+1
+    #until
+    if(dx< tol|| k > maxIter) break;
+  }
+  
+  if( dx > tol ){
+    cat("No hubo convergencia ")
+  } else{
+    cat("x* es aproximadamente ", x1, " con error menor que ", tol, "\n")
+  }
+  cat("Error de truncamiento", abs(dx-tol))
+}
+
+puntofijo(g,0)
+puntofijo(g,2.5)
+#Solo converge con la raiz de 0.5448804
+```
+
+Respuesta:
+
+```r
+> puntofijo(g,0)
+[1] 0.4
+x_ 1 =  0.4 
+[1] 0.09836494
+x_ 2 =  0.4983649 
+[1] 0.0308406
+x_ 3 =  0.5292055 
+[1] 0.01031108
+x_ 4 =  0.5395166 
+[1] 0.003518894
+x_ 5 =  0.5430355 
+[1] 0.001209232
+x_ 6 =  0.5442447 
+[1] 0.0004165235
+x_ 7 =  0.5446613 
+[1] 0.0001435894
+x_ 8 =  0.5448049 
+[1] 4.951389e-05
+x_ 9 =  0.5448544 
+[1] 1.70755e-05
+x_ 10 =  0.5448715 
+[1] 5.888904e-06
+x_ 11 =  0.5448773 
+[1] 2.030955e-06
+x_ 12 =  0.5448794 
+[1] 7.004354e-07
+x_ 13 =  0.5448801 
+[1] 2.415663e-07
+x_ 14 =  0.5448803 
+[1] 8.331146e-08
+x_ 15 =  0.5448804 
+[1] 2.873249e-08
+x_ 16 =  0.5448804 
+[1] 9.909274e-09
+x_ 17 =  0.5448804 
+x* es aproximadamente  0.5448804  con error menor que  1e-08 
+Error de truncamiento 9.072582e-11> puntofijo(g,2.5)
+[1] 0.1364988
+x_ 1 =  2.636499 
+[1] 0.3563465
+x_ 2 =  2.992845 
+[1] 1.195623
+x_ 3 =  4.188469 
+[1] 9.195883
+x_ 4 =  13.38435 
+[1] 129938
+x_ 5 =  129951.3 
+[1] Inf
+x_ 6 =  Inf 
+[1] NaN
+x_ 7 =  Inf 
+Error in if (dx < tol || k > maxIter) break : 
+  missing value where TRUE/FALSE needed
+```
+Gráfica: 
