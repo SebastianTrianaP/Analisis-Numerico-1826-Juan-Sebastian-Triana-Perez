@@ -458,3 +458,7 @@ Error in if (dx < tol || k > maxIter) break :
   missing value where TRUE/FALSE needed
 ```
 Gráfica: 
+
+![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/Graficap15.JPG)
+
+Gráfica dgenerado por el programa, función f(x)=5*x-(exp(1)^x)-1.
