@@ -461,4 +461,4 @@ Gráfica:
 
 ![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Taller-1/Graficap15.JPG)
 
-Gráfica generado por el programa, función f(x)=5*x-(exp(1)^x)-1.
+Gráfica generada por el programa, función f(x)=5*x-(exp(1)^x)-1.
