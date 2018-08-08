@@ -1,5 +1,5 @@
 # Taller # 1
-###### Realizado por: Miguel Beltrán y Juan Sebastian Triana Perez
+###### Realizado por: Miguel Angel Beltrán Rodriguez y Juan Sebastian Triana Perez
 1.
 a)  Evaluar el polinomio en cada valor indicado y el número de operaciones mínimo para hacerlo, para los siguientes polinomios junto con sus derivadas
 Codigo:
