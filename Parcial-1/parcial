@@ -80,5 +80,36 @@ sol1
 sol2
 sol3
 
-O(n)=
+T(n)=T(n)
+O(n)=O(n)
+
+SALIDA
+
+
+[1] 81
+> sol2
+[1] 256
+> sol3
+[1] 625
+
+Punto 2
+
+E<-10^-7
+x0<--2
+x1<-0
+punto2<-function(E,x0,x1){
+Siguiente<-x1-f(x1)*(x1-x0)/(f(x1)-f(x0))
+while (siguiente>E){
+  x0<-x1
+  x1<-siguiente
+  Siguiente<-x1-f(x1)*(x1-x0)/(f(x1)-f(x0))
+}
+}
+f<-function(x){
+  #funcion que exprese como las dos funciones se intersectan ln(x+2) y sin(x)
+}
+
+SALIDA
+
+deberia iterar hasta encontrar que el punto se encuentra en (-1.6514,-0.9982)
 
