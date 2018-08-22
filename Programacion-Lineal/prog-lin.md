@@ -1,6 +1,6 @@
 # solveLP
 
-Resolver proramación lineal/ ptimización de problemas.
+Resolver proramación lineal/ Optimización de problemas.
 Maximización y Minimización
 ```r
 solucion<-solveLP(cvec = z,bvec = b,Amat = a, maximum=TRUE, const.dir =r,zero = 1e-9, tol = 1e-8,verbose = 4)
