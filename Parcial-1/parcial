@@ -1,0 +1,84 @@
+Punto 3
+a) Con precision de 2 cifras
+
+CODIGO
+# z = x+0.645y
+
+# 50x+31y<=250
+# -3x+2y <=4
+# y>=0
+# x>=0
+
+z<-(c(1,0.645))
+a<-matrix(c(50,-3,31,2), ncol=2)
+b<-(c(250,4))
+r<-rep('<=',2)
+
+solucion<-solveLP(cvec = z,bvec = b,Amat = a, maximum=TRUE, const.dir =r,zero = 1e-2, tol = 1e-2,verbose = 4)
+summary(solucion)
+
+RESPUESTA
+
+X1=1.94
+X2=4.91
+
+Objective function (Maximum): 5.10
+
+b) Con la precision recomendada
+
+CODIGO
+# z = x+0.645y
+
+# 50x+31y<=250
+# -3x+2y <=4
+# y>=0
+# x>=0
+
+z<-(c(1,0.645))
+a<-matrix(c(50,-3,31,2), ncol=2)
+b<-(c(250,4))
+r<-rep('<=',2)
+
+solucion<-solveLP(cvec = z,bvec = b,Amat = a, maximum=TRUE, const.dir =r,zero = 1e-6, tol = 1e-6,verbose = 4)
+summary(solucion)
+
+RESPUESTA
+
+La precision recomedada es de 1e-6 con la cual da resultado de 
+X1=1.948187
+X2=4.922280
+
+Objective function (Maximum): 5.123057
+
+c) aproximando la solucion a 0 y 1
+
+Cuando se aproxima a la solucion de 0 y 1 los valores quedan
+X1=1
+X2=1
+
+Objective function (Maximum): 1.645
+
+Punto 1
+b) 
+
+punto1<-function(n){
+s<-0
+iter<-n
+matriz<-matrix(iter^2,iter,iter)
+for(row in 1:nrow(matriz)) {
+  for(col in 1:ncol(matriz)) {
+    s<-s+matriz[row, col]
+  }
+}
+s
+}
+
+sol1<-punto1(3)
+sol2<-punto1(4)
+sol3<-punto1(5)
+sol1
+sol2
+sol3
+
+O(n)=
+
