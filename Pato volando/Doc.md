@@ -1,5 +1,7 @@
 # Pato volando
 
+###### Realizado por : Miguel Beltran y Sebastian Triana
+
 Instalar el paquete pracma;
 Se usan las funciones: 
 - pchip(xi, yi, x)
@@ -84,4 +86,6 @@ abline(a=0, b=0)
 ```
 
 ## Imagen
+
+![Grafica](https://github.com/SebastianTrianaP/Analisis-Numerico-1826-Juan-Sebastian-Triana-Perez/blob/master/Pato%20volando/Pato.JPG)
 
