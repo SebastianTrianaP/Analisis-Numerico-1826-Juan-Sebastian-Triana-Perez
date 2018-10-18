@@ -4,7 +4,7 @@ triseccion = function (a, b, f, tol, prec){
     cat("Razón:","f(a)=", f(a) , "y", "f(b)=", f(b), "tienen el mismo signo.\n")
   }
   else {
-    plot(f, to=b, from=a, type = "l", main = "Grafica función", xlab = "X", ylab = "Y", col = "red")
+    plot(f, to=b, from=a, type = "l", main = "Gráfica función", xlab = "X", ylab = "Y", col = "red")
     cat("Tolerancia:", tol, "\n")
     cat("Precisión:", prec, "\n")
     xr1=((2*a)+b)/3
